@@ -4,8 +4,8 @@
   "description": "Quick roll panel for VTM5E with full dice mechanics, Hunger dice, and multi-use Willpower rerolls.",
   "version": "0.1.0",
   "author": "Conner",
-  "minimumCoreVersion": "11",
-  "compatibleCoreVersion": "11",
+  "minimumCoreVersion": "13",
+  "compatibleCoreVersion": "12",
   "esmodules": ["src/roll-panel.js"],
   "styles": ["styles/roll-panel.css"],
   "templates": ["templates/roll-panel.html"]
