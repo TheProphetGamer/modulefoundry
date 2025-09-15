@@ -9,4 +9,5 @@
   "esmodules": ["src/roll-panel.js"],
   "styles": ["styles/roll-panel.css"],
   "templates": ["templates/roll-panel.html"]
+  "id": "roll-panel"
 }
