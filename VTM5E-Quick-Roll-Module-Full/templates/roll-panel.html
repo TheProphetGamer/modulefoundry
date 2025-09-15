@@ -1,0 +1,58 @@
+
+<div class="vtm-roll-panel">
+  <h3>VTM Quick Rolls</h3>
+  <div class="row">
+    <label>Actor
+      <select name="actor-select">
+        <option value="">(No actor)</option>
+        {{#each game.actors}}
+          <option value="{{this.id}}">{{this.name}}</option>
+        {{/each}}
+      </select>
+    </label>
+  </div>
+  <div class="row">
+    <label>Attribute
+      <select name="attribute">
+        <option value="strength">Strength</option>
+        <option value="dexterity">Dexterity</option>
+        <option value="stamina">Stamina</option>
+        <option value="charisma">Charisma</option>
+        <option value="manipulation">Manipulation</option>
+        <option value="presence">Presence</option>
+        <option value="perception">Perception</option>
+        <option value="intelligence">Intelligence</option>
+        <option value="wits">Wits</option>
+      </select>
+    </label>
+  </div>
+  <div class="row">
+    <label>Skill
+      <select name="skill">
+        <option value="">(None)</option>
+        <option value="athletics">Athletics</option>
+        <option value="brawl">Brawl</option>
+        <option value="crafts">Crafts</option>
+        <option value="drive">Drive</option>
+        <option value="etiquette">Etiquette</option>
+        <option value="firearms">Firearms</option>
+        <option value="larceny">Larceny</option>
+        <option value="melee">Melee</option>
+        <option value="performance">Performance</option>
+        <option value="stealth">Stealth</option>
+        <option value="survival">Survival</option>
+        <option value="technology">Technology</option>
+      </select>
+    </label>
+  </div>
+  <div class="row">
+    <label>Modifier <input type="number" name="modifier" value="0"/></label>
+  </div>
+  <div class="row">
+    <label>Hunger <input type="number" name="hunger" min="0" max="5" value="0"/></label>
+  </div>
+  <div class="row buttons">
+    <button class="roll-pool">Roll Pool</button>
+    <button class="rouse-check">Rouse Check</button>
+  </div>
+</div>
