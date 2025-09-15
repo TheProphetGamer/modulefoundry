@@ -9,5 +9,7 @@
   "esmodules": ["src/roll-panel.js"],
   "styles": ["styles/roll-panel.css"],
   "templates": ["templates/roll-panel.html"]
+  "url": "hhttps://github.com/TheProphetGamer/modulefoundry",
+  "manifest": "https://raw.githubusercontent.com/TheProphetGamer/modulefoundry/refs/heads/main/VTM5E-Quick-Roll-Module-Clean/module.json",
   "id": "roll-panel"
 }
