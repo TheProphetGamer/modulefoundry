@@ -1,6 +1,7 @@
 {
+  "id": "roll-panel",
   "name": "vtm5e-quick-roll",
-  "title": "VTM5E Quick Roll Panel"
+  "title": "VTM5E Quick Roll Panel",
   "description": "Quick roll panel for VTM5E with full dice mechanics, Hunger dice, and multi-use Willpower rerolls.",
   "version": "0.1.0",
   "author": "Conner",
@@ -8,8 +9,8 @@
   "compatibleCoreVersion": "13",
   "esmodules": ["src/roll-panel.js"],
   "styles": ["styles/roll-panel.css"],
-  "templates": ["templates/roll-panel.html"]
-  "url": "hhttps://github.com/TheProphetGamer/modulefoundry",
-  "manifest": "https://raw.githubusercontent.com/TheProphetGamer/modulefoundry/refs/heads/main/VTM5E-Quick-Roll-Module-Clean/module.json",
-  "id": "roll-panel"
+  "templates": ["templates/roll-panel.html"],
+  "url": "https://github.com/TheProphetGamer/modulefoundry",
+  "manifest": "https://raw.githubusercontent.com/TheProphetGamer/modulefoundry/main/VTM5E-Quick-Roll-Module-Clean/module.json"
 }
+
