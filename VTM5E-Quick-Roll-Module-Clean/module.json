@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Conner",
   "minimumCoreVersion": "13",
-  "compatibleCoreVersion": "12",
+  "compatibleCoreVersion": "13",
   "esmodules": ["src/roll-panel.js"],
   "styles": ["styles/roll-panel.css"],
   "templates": ["templates/roll-panel.html"]
